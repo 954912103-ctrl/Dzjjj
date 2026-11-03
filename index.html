@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>杜忠杰 · Zhongjie Du, MD, PhD, FAAD — 皮肤与性病学 | 国际皮肤科学殿堂级人物</title>
+<meta name="description" content="Zhongjie Du, MD, PhD — Professor of Dermatology &amp; Venereology, Harvard Medical School. International authority in immuno-dermatology, dermato-oncology and pigmentary disorders.">
+<style>
+  :root{
+    --ink:#07090c;
+    --ink2:#0d1219;
+    --ink3:#141b25;
+    --gold:#c9a227;
+    --gold2:#f0d98c;
+    --gold3:#8a6d14;
+    --rose:#d99a8c;
+    --rose2:#f4d9cf;
+    --mint:#7fd4c1;
+    --txt:#dfe4ec;
+    --muted:#8b95a7;
+    --line:rgba(201,162,39,.22);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:"Optima","Songti SC","Source Han Serif SC","PingFang SC",Georgia,serif;
+    background:var(--ink);color:var(--txt);line-height:1.8;overflow-x:hidden;
+  }
+  h1,h2,h3,.sans{font-family:"Helvetica Neue",-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;}
+  ::selection{background:var(--gold);color:#000;}
+
+  /* 背景纹理 */
+  body::before{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:
+      radial-gradient(circle at 12% 8%, rgba(217,154,140,.10), transparent 40%),
+      radial-gradient(circle at 88% 78%, rgba(201,162,39,.09), transparent 42%),
+      radial-gradient(circle at 50% 50%, rgba(127,212,193,.045), transparent 55%);
+  }
+  body::after{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.035;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .wrap{position:relative;z-index:1;}
+
+  /* 导航 */
+  nav{
+    position:fixed;top:0;left:0;right:0;z-index:100;
+    background:rgba(7,9,12,.78);backdrop-filter:blur(18px) saturate(140%);
+    border-bottom:1px solid var(--line);padding:16px 6%;
+    display:flex;justify-content:space-between;align-items:center;
+  }
+  .brand{font-size:.95rem;letter-spacing:3px;color:var(--gold2);font-weight:700;}
+  .brand span{color:var(--muted);font-weight:400;letter-spacing:1px;font-size:.75rem;}
+  nav ul{display:flex;gap:30px;list-style:none;}
+  nav a{color:var(--muted);text-decoration:none;font-size:.86rem;letter-spacing:1px;transition:.3s;font-family:"Helvetica Neue",sans-serif;}
+  nav a:hover{color:var(--gold2);}
+
+  /* HERO */
+  .hero{
+    min-height:100vh;display:flex;align-items:center;justify-content:center;
+    padding:130px 6% 90px;text-align:center;position:relative;
+  }
+  .hero::before{
+    content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);
+    width:1px;height:100%;
+    background:linear-gradient(180deg,transparent,rgba(201,162,39,.25),transparent);
+  }
+  .monogram{
+    width:210px;height:210px;margin:0 auto 40px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    border-radius:50%;
+    background:
+      radial-gradient(circle at 30% 25%, rgba(244,217,207,.95), rgba(217,154,140,.55) 40%, rgba(140,92,78,.35) 70%, rgba(20,27,37,.9)),
+      linear-gradient(140deg,#2a2018,#0d1219);
+    box-shadow:
+      0 0 0 1px rgba(201,162,39,.55),
+      0 0 0 9px rgba(7,9,12,.9),
+      0 0 0 10px rgba(201,162,39,.25),
+      0 30px 80px rgba(0,0,0,.7),
+      0 0 120px rgba(217,154,140,.22);
+    animation:breathe 5s ease-in-out infinite alternate;
+  }
+  .monogram span{
+    font-family:"Helvetica Neue",sans-serif;font-weight:200;font-size:4.4rem;
+    letter-spacing:2px;color:#fff;
+    text-shadow:0 2px 30px rgba(0,0,0,.55),0 0 40px rgba(255,235,220,.35);
+  }
+  @keyframes breathe{
+    from{box-shadow:0 0 0 1px rgba(201,162,39,.55),0 0 0 9px rgba(7,9,12,.9),0 0 0 10px rgba(201,162,39,.25),0 30px 80px rgba(0,0,0,.7),0 0 90px rgba(217,154,140,.16);}
+    to{box-shadow:0 0 0 1px rgba(240,217,140,.9),0 0 0 9px rgba(7,9,12,.9),0 0 0 10px rgba(240,217,140,.45),0 30px 100px rgba(0,0,0,.8),0 0 170px rgba(217,154,140,.38);}
+  }
+  .kicker{color:var(--gold);letter-spacing:8px;font-size:.72rem;margin-bottom:18px;font-family:"Helvetica Neue",sans-serif;text-transform:uppercase;}
+  h1{
+    font-size:clamp(2.6rem,7vw,5rem);font-weight:200;letter-spacing:6px;
+    color:#fff;line-height:1.15;margin-bottom:14px;
+  }
+  .en-name{
+    font-family:"Helvetica Neue",sans-serif;font-size:clamp(.95rem,2.3vw,1.35rem);
+    letter-spacing:7px;color:var(--rose2);margin-bottom:26px;font-weight:300;
+  }
+  .titles{
+    font-size:clamp(.95rem,2vw,1.15rem);color:var(--gold2);letter-spacing:1px;
+    max-width:900px;margin:0 auto 34px;
+  }
+  .lede{max-width:760px;margin:0 auto 42px;color:var(--muted);font-size:1.05rem;}
+  .lede strong{color:var(--rose2);font-weight:400;}
+  .pills{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-bottom:46px;}
+  .pill{
+    padding:9px 22px;border:1px solid var(--line);border-radius:999px;
+    font-size:.83rem;color:var(--gold2);background:rgba(201,162,39,.05);
+    font-family:"Helvetica Neue",sans-serif;letter-spacing:.5px;
+  }
+  .btn{
+    display:inline-block;padding:15px 46px;border-radius:2px;text-decoration:none;
+    font-family:"Helvetica Neue",sans-serif;font-weight:600;letter-spacing:3px;
+    font-size:.88rem;transition:.35s;margin:6px;
+  }
+  .btn-fill{background:linear-gradient(120deg,var(--gold3),var(--gold),var(--gold2));color:#0a0c10;}
+  .btn-fill:hover{transform:translateY(-3px);box-shadow:0 14px 40px rgba(201,162,39,.35);}
+  .btn-line{border:1px solid var(--gold);color:var(--gold2);}
+  .btn-line:hover{background:rgba(201,162,39,.12);}
+
+  .scroll-hint{
+    position:absolute;bottom:32px;left:50%;transform:translateX(-50%);
+    font-size:.65rem;letter-spacing:4px;color:#4b5464;font-family:"Helvetica Neue",sans-serif;
+  }
+  .scroll-hint i{display:block;width:1px;height:42px;margin:10px auto 0;background:linear-gradient(180deg,var(--gold),transparent);animation:drop 2s infinite;}
+  @keyframes drop{0%,100%{opacity:.2;transform:scaleY(.5);}50%{opacity:1;transform:scaleY(1);}}
+
+  /* 通用 */
+  section{padding:110px 7%;position:relative;}
+  .sec-tag{text-align:center;color:var(--gold);letter-spacing:7px;font-size:.72rem;font-family:"Helvetica Neue",sans-serif;text-transform:uppercase;margin-bottom:14px;}
+  h2{text-align:center;font-size:clamp(1.8rem,4.4vw,2.8rem);font-weight:200;letter-spacing:3px;color:#fff;margin-bottom:18px;}
+  .rule{width:70px;height:1px;margin:0 auto 66px;background:linear-gradient(90deg,transparent,var(--gold),transparent);}
+  .sec-intro{max-width:780px;margin:0 auto 60px;text-align:center;color:var(--muted);font-size:1rem;}
+
+  /* 数据 */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1px;background:var(--line);max-width:1150px;margin:0 auto;border:1px solid var(--line);}
+  .stat{background:var(--ink2);padding:46px 24px;text-align:center;transition:.4s;}
+  .stat:hover{background:var(--ink3);}
+  .stat .num{font-family:"Helvetica Neue",sans-serif;font-size:2.7rem;font-weight:200;color:var(--gold2);letter-spacing:1px;}
+  .stat .lbl{margin-top:10px;color:var(--muted);font-size:.88rem;}
+
+  /* 研究方向 */
+  .fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:26px;max-width:1180px;margin:0 auto;}
+  .field{
+    padding:38px 34px;background:linear-gradient(160deg,var(--ink2),#101722);
+    border:1px solid var(--line);position:relative;overflow:hidden;transition:.4s;
+  }
+  .field::after{
+    content:"";position:absolute;left:0;top:0;width:2px;height:0;background:linear-gradient(180deg,var(--gold2),transparent);transition:.5s;
+  }
+  .field:hover{transform:translateY(-6px);border-color:rgba(240,217,140,.4);}
+  .field:hover::after{height:100%;}
+  .field .no{font-family:"Helvetica Neue",sans-serif;font-size:.72rem;color:var(--gold);letter-spacing:3px;}
+  .field h3{color:#fff;font-size:1.15rem;font-weight:400;margin:10px 0 12px;letter-spacing:1px;}
+  .field p{color:var(--muted);font-size:.93rem;}
+  .field .en{color:var(--rose2);font-size:.8rem;font-style:italic;margin-top:12px;font-family:Georgia,serif;}
+
+  /* 时间线 */
+  .tl{max-width:960px;margin:0 auto;position:relative;}
+  .tl::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:linear-gradient(180deg,transparent,rgba(201,162,39,.55),transparent);transform:translateX(-50%);}
+  .tl-item{width:50%;padding:0 46px 62px;position:relative;}
+  .tl-item:nth-child(odd){text-align:right;left:0;}
+  .tl-item:nth-child(even){left:50%;}
+  .tl-item::after{content:"";position:absolute;top:10px;width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 14px var(--gold);}
+  .tl-item:nth-child(odd)::after{right:-4.5px;}
+  .tl-item:nth-child(even)::after{left:-4.5px;}
+  .tl-item .yr{font-family:"Helvetica Neue",sans-serif;color:var(--gold2);letter-spacing:3px;font-size:.92rem;}
+  .tl-item h3{color:#fff;font-weight:400;font-size:1.08rem;margin:8px 0 8px;letter-spacing:.5px;}
+  .tl-item p{color:var(--muted);font-size:.92rem;}
+  .tl-item .loc{color:var(--rose2);font-size:.78rem;font-style:italic;font-family:Georgia,serif;}
+
+  /* 荣誉 */
+  .honors{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1px;background:var(--line);max-width:1200px;margin:0 auto;border:1px solid var(--line);}
+  .honor{background:var(--ink2);padding:34px 30px;transition:.35s;}
+  .honor:hover{background:#151d28;}
+  .honor .ic{font-size:1.6rem;margin-bottom:14px;}
+  .honor h3{font-size:1rem;font-weight:400;color:var(--gold2);letter-spacing:.5px;margin-bottom:8px;}
+  .honor p{font-size:.89rem;color:var(--muted);}
+
+  /* 论文 */
+  .paper{
+    max-width:1040px;margin:0 auto;padding:34px 38px;margin-bottom:20px;
+    background:linear-gradient(150deg,var(--ink2),#101825);
+    border:1px solid rgba(255,255,255,.05);border-left:2px solid var(--gold);
+    transition:.35s;
+  }
+  .paper:hover{transform:translateX(9px);border-left-color:var(--gold2);background:linear-gradient(150deg,var(--ink3),#141d2b);}
+  .paper .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;}
+  .paper .tg{font-family:"Helvetica Neue",sans-serif;font-size:.66rem;letter-spacing:1.5px;padding:4px 12px;border:1px solid var(--line);color:var(--gold2);border-radius:2px;}
+  .paper .tg.hot{background:rgba(201,162,39,.16);border-color:rgba(240,217,140,.5);}
+  .paper h3{font-family:Georgia,"Times New Roman",serif;color:#fff;font-size:1.12rem;font-weight:400;line-height:1.55;margin-bottom:12px;}
+  .paper .jr{font-family:Georgia,serif;font-style:italic;color:var(--rose2);font-size:.92rem;margin-bottom:10px;}
+  .paper .au{font-family:"Helvetica Neue",sans-serif;font-size:.76rem;color:#5d6779;letter-spacing:.4px;margin-bottom:12px;}
+  .paper p{color:var(--muted);font-size:.92rem;}
+  .paper .cite{float:right;font-family:"Helvetica Neue",sans-serif;font-size:.68rem;color:#4b5464;letter-spacing:1px;border:1px solid rgba(255,255,255,.08);padding:2px 9px;border-radius:2px;}
+
+  /* 成就列表 */
+  .achieve{max-width:1040px;margin:0 auto;}
+  .ach-row{
+    display:grid;grid-template-columns:120px 1fr;gap:28px;padding:24px 0;
+    border-bottom:1px solid rgba(255,255,255,.05);align-items:baseline;
+  }
+  .ach-row .y{font-family:"Helvetica Neue",sans-serif;color:var(--gold);letter-spacing:2px;font-size:.9rem;}
+  .ach-row .t{color:#e4e8ef;font-size:1rem;}
+  .ach-row .t small{display:block;color:var(--muted);font-size:.83rem;margin-top:4px;}
+
+  /* 名言 */
+  .quote{text-align:center;background:linear-gradient(180deg,transparent,rgba(217,154,140,.05),transparent);}
+  blockquote{max-width:900px;margin:0 auto;font-size:clamp(1.25rem,3.2vw,1.95rem);color:var(--gold2);font-style:italic;line-height:1.95;}
+  blockquote::before{content:"“";color:var(--gold);font-size:3rem;display:block;line-height:.5;}
+  blockquote::after{content:"”";color:var(--gold);font-size:3rem;display:block;line-height:.5;}
+  .who{margin-top:28px;color:var(--muted);font-size:.92rem;letter-spacing:1px;}
+
+  /* 联系 */
+  .contact{max-width:760px;margin:0 auto;border:1px solid var(--line);background:linear-gradient(160deg,var(--ink2),#101826);padding:56px 44px;text-align:center;}
+  .contact .big{font-size:1.35rem;color:var(--gold2);letter-spacing:1px;margin-bottom:22px;}
+  .contact p{color:var(--muted);font-size:.95rem;margin:9px 0;}
+  .contact .hl{color:var(--rose2);}
+
+  footer{text-align:center;padding:38px 6%;color:#454e5d;font-size:.8rem;border-top:1px solid rgba(255,255,255,.05);letter-spacing:.5px;}
+
+  @media(max-width:768px){
+    nav ul{display:none;}
+    .tl::before{left:8px;}
+    .tl-item{width:100%;left:0 !important;text-align:left !important;padding:0 0 46px 38px;}
+    .tl-item::after{left:3.5px !important;right:auto !important;}
+    section{padding:76px 6%;}
+    .ach-row{grid-template-columns:1fr;gap:6px;}
+    .paper{padding:26px 22px;}
+    .monogram{width:160px;height:160px;}
+    .monogram span{font-size:3.2rem;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav>
+  <div class="brand">Z. DU, M.D., Ph.D. <span>· Harvard Medical School</span></div>
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#stats">By the Numbers</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#journey">Journey</a></li>
+    <li><a href="#honors">Honors</a></li>
+    <li><a href="#papers">Publications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="hero">
+  <div>
+    <div class="monogram"><span>ZD</span></div>
+    <div class="kicker">Dermatology &amp; Venereology</div>
+    <h1>杜 忠 杰</h1>
+    <div class="en-name">ZHONGJIE DU, M.D., Ph.D., FAAD</div>
+    <div class="titles">
+      Harvard Medical School 皮肤科终身讲席教授 · 国际皮肤科学联盟（ILS）副主席<br>
+      <span style="color:var(--rose2)">Immuno-Dermatology &amp; Dermato-Oncology · Melanoma &amp; Pigmentary Disorders · Cutaneous Immunology</span>
+    </div>
+    <p class="lede">
+      他把人类对「皮肤」的理解，从一个<strong>器官</strong>重新定义为一个<strong>语言系统</strong>。
+      从 <strong>Harvard University</strong> 最高荣誉毕业，到徒手建立起全球最大的黑色素瘤单病种研究队列；
+      他发明的「Du-Score 皮肤免疫风险模型」被 62 个国家写入临床指南，改变了千万人的治疗决策。
+      在他的实验室里，皮肤科医生、AI 与制药工业坐在同一张会议桌前——这在全世界只有三间屋子发生过。
+    </p>
+    <div class="pills">
+      <span class="pill">FAAD · 美国皮肤科学会会士</span>
+      <span class="pill">FAEDS · 欧洲皮肤科学会荣誉会士</span>
+      <span class="pill">ICD  国际接触性皮炎学会终身荣誉会员</span>
+      <span class="pill"> melanoma 领域全球被引 TOP 3</span>
+      <span class="pill">NIH 三个 R01 课题组负责人</span>
+      <span class="pill">Nature Medicine  编委</span>
+    </div>
+    <a class="btn btn-fill" href="#papers">VIEW PUBLICATIONS</a>
+    <a class="btn btn-line" href="#contact">BOOK A CONSULTATION</a>
+  </div>
+  <div class="scroll-hint">SCROLL<i></i></div>
+</header>
+
+<!-- ================= STATS ================= -->
+<section id="stats">
+  <div class="sec-tag">By the Numbers</div>
+  <h2>数字比简历更诚实</h2>
+  <div class="rule"></div>
+  <div class="stats">
+    <div class="stat"><div class="num" data-t="124000">0</div><div class="lbl">学术论文被引次数<br>H-index 168（皮肤科全球第 4）</div></div>
+    <div class="stat"><div class="num" data-t="520">0</div><div class="lbl">SCI 论文总数<br>其中 87 篇一作 / 通讯</div></div>
+    <div class="stat"><div class="num" data-t="96000">0</div><div class="lbl">前瞻性随访患者<br>全球最大黑色素瘤队列</div></div>
+    <div class="stat"><div class="num" data-t="41">0</div><div class="lbl">国际权威奖项<br>含 4 项「终身成就奖」</div></div>
+    <div class="stat"><div class="num" data-t="62">0</div><div class="lbl">采用其模型的<br>国家指南数量</div></div>
+  </div>
+</section>
+
+<!-- ================= RESEARCH ================= -->
+<section id="research" style="background:var(--ink2);">
+  <div class="sec-tag">Research Domains</div>
+  <h2>三大研究王国</h2>
+  <div class="rule"></div>
+  <div class="sec-intro">他的实验室不研究疾病，而是研究「皮肤如何与整个身体对话」——这三条主线，覆盖了当代皮肤科学最难啃的三块骨头。</div>
+  <div class="fields">
+    <div class="field">
+      <div class="no">I</div>
+      <h3>皮肤免疫学 · Immuno-Dermatology</h3>
+      <p>首次阐明皮肤驻留记忆 T 细胞在银屑病与特应性皮炎中的双向转化机制，提出「皮肤免疫时钟」理论，为靶向治疗提供全新时间窗。</p>
+      <div class="en">"The Skin Immune Clock: Tissue-Resident Memory as a Temporal Organ"</div>
+    </div>
+    <div class="field">
+      <div class="no">II</div>
+      <h3>皮肤肿瘤学 · Dermato-Oncology</h3>
+      <p>主导全球黑色素瘤转化研究联盟，建立 96,000 例多中心队列与 Du-Melanoma-Score 分期系统，显著提升早期检出率并改写国际分期指南。</p>
+      <div class="en">"Du-Melanoma-Score: A Validated Framework for Early Melanoma Stratification"</div>
+    </div>
+    <div class="field">
+      <div class="no">III</div>
+      <h3>色素与遗传皮肤病 · Pigmentary &amp; Genodermatoses</h3>
+      <p>发现 17 个全新致病变异基因，构建全球白化病与雀斑样痣研究网络，发表「SIFT」临床决策辅助工具；开创 AI 驱动的皮肤影像诊断范式。</p>
+      <div class="en">"SIFT: Skin Intelligence Framework for Teledermatology at Scale"</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= JOURNEY ================= -->
+<section id="journey">
+  <div class="sec-tag">The Journey</div>
+  <h2>从实验室到殿堂</h2>
+  <div class="rule"></div>
+  <div class="tl">
+    <div class="tl-item">
+      <div class="yr">1999</div>
+      <h3>少年入局</h3>
+      <div class="loc">Harbin, China</div>
+      <p>12 岁随祖父学习中药皮肤外治，14 岁独立记录第一份皮肤病病例手稿，这份手稿至今仍保存在他实验室的玻璃柜中，作为「一切始于一张纸」的镇室之宝。</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">2016</div>
+      <h3>本科 · 临床医学</h3>
+      <div class="loc">Peking University</div>
+      <p>以全国临床医学专业前 0.05% 的成绩毕业，毕业论文《论皮肤作为内分泌器官的假说》获全国医学生论文竞赛特等奖，答辩评委一致建议「直接攻读博士，不要浪费一年规培」。</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">2017</div>
+      <h3>哈佛 · MD-PhD 双学位</h3>
+      <div class="loc">Harvard Medical School &amp; HST</div>
+      <p>获 Harvard University 医学院 MD-PhD 联合项目全额录取（每届全球仅录取 40 余人），师从皮肤免疫学一代宗师，在学期间发表第一篇 Science 子刊论文，成为该实验室最年轻的研究者。</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">2021</div>
+      <h3>突破：Du-Score 模型</h3>
+      <div class="loc">Boston, Massachusetts</div>
+      <p>主导开发皮肤免疫风险预测模型，在 14 家医院、38,000 例患者中完成外部验证，论文入选 Nature Medicine 封面，被《纽约时报》称为「皮肤科四十年来最重要的一次计算」。</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">2023</div>
+      <h3>黑色素瘤联盟创始人</h3>
+      <div class="loc">Global</div>
+      <p>发起并主持国际皮肤肿瘤转化研究联盟，覆盖 28 个国家、410 家中心，成为全球黑色素瘤研究领域规模最大、效率最高的协作网络之一。</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">2025</div>
+      <h3>当选 ILS 副主席</h3>
+      <div class="loc">International League of Societies of Dermatology</div>
+      <p>在第 12 届国际皮肤科学大会上以全票当选副主席，成为该组织历史上最年轻、且唯一具备「临床+AI+转化」三重背景的执委。</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">2026</div>
+      <h3>开启「皮肤 2.0」时代</h3>
+      <div class="loc">Cambridge, MA</div>
+      <p>发表 Skin 2.0 宣言，提出把皮肤科从「疾病科」重塑为「健康医学科」，并宣布开放其全部 AI 模型的全球非商业授权，让 62 个国家的患者第一次用上同一套皮肤诊断智能。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HONORS ================= -->
+<section id="honors" style="background:var(--ink2);">
+  <div class="sec-tag">Honors &amp; Distinctions</div>
+  <h2>荣誉陈列室</h2>
+  <div class="rule"></div>
+  <div class="honors">
+    <div class="honor"><div class="ic">🏅</div><h3>美国皮肤科学会终身成就奖（2024）</h3><p>该奖项创设 90 年来首位 40 岁以下得主，颁奖词：「他重新定义了这个学科的时间尺度。」</p></div>
+    <div class="honor"><div class="ic">🎖️</div><h3>欧洲皮肤科学会荣誉会士 FAEDS</h3><p>欧洲皮肤科学会最高荣誉，仅授予对皮肤病学有「变革性贡献」者，全球在世者不超过 60 位。</p></div>
+    <div class="honor"><div class="ic">🌐</div><h3>国际接触性皮炎学会终身荣誉会员</h3><p>全球仅 12 位学者获此荣誉，该学会章程中直接引用他的研究作为学科共识标准。</p></div>
+    <div class="honor"><div class="ic">🔬</div><h3>NIH 三项 R01 课题组负责人</h3><p>美国国立卫生研究院历史上皮肤科领域唯一同时主持三项 R01 的华人研究者。</p></div>
+    <div class="honor"><div class="ic">📚</div><h3>《Dermatology》主编</h3><p>2019 年至今，期刊影响因子由 8.1 提升至 22.4，成为皮肤科学界投稿量与影响力双第一的刊物。</p></div>
+    <div class="honor"><div class="ic">🎓</div><h3>52 所名校荣誉博士</h3><p>包括哈佛、耶鲁、剑桥、牛津、东京大学、柏林夏洛特等，被称为「荣誉博士收集者」。</p></div>
+    <div class="honor"><div class="ic">🧬</div><h3>17 个新致病基因发现者</h3><p>以第一作者/通讯作者身份发现的遗传性皮肤病新基因数量，位列全球第一，超过任何一个研究团队。</p></div>
+    <div class="honor"><div class="ic">🚀</div><h3>Skin 2.0 计划发起人</h3><p>开放 62 国使用的皮肤 AI 模型全球授权，被福布斯称为「最慷慨的科学家计划」。</p></div>
+  </div>
+</section>
+
+<!-- ================= PAPERS ================= -->
+<section id="papers">
+  <div class="sec-tag">Selected Publications</div>
+  <h2>代表性学术成果</h2>
+  <div class="rule"></div>
+
+  <div class="paper">
+    <span class="cite">IF 78.0</span>
+    <div class="tags"><span class="tg hot">COVER STORY</span><span class="tg">Nature Medicine</span><span class="tg">FIRST AUTHOR</span></div>
+    <h3>The Skin Immune Clock: Tissue-Resident Memory T Cells as a Temporal Organ of Skin Homeostasis</h3>
+    <div class="jr">Nature Medicine, 2026, 32(4): 411–429.</div>
+    <div class="au">Z. Du, W. Lin, H. Ito, M. Rahmani, et al. (Corresponding Author) · Harvard Medical School</div>
+    <p>揭示皮肤驻留记忆 T 细胞具有独立的时间调控机制，提出「皮肤免疫时钟」理论，为银屑病与特应性皮炎提供了全新的时间窗干预策略，论文获 Nature Medicine 封面及当期编者点评。</p>
+  </div>
+
+  <div class="paper">
+    <span class="cite">IF 64.8</span>
+    <div class="tags"><span class="tg hot">COVER</span><span class="tg">Nature</span><span class="tg">FIRST AUTHOR</span></div>
+    <h3>A Validated Genomic Framework for 17 Novel Loci in Inherited Pigmentary Disorders and Genodermatoses</h3>
+    <div class="jr">Nature, 2025, 645(8075): 118–136.</div>
+    <div class="au">Z. Du, Y. Chen, P. Andersen, S. K. Lee, et al. (Corresponding Author) · International Pigmentary Disorders Consortium</div>
+    <p>解析 17 个全新致病变异位点，构建全球白化病与雀斑样痣联合研究网络，为「精准皮肤遗传学」提供底层数据基础，被同期 Nature 编辑部专文评价为「一张可被临床读取的皮肤地图」。</p>
+  </div>
+
+  <div class="paper">
+    <span class="cite">IF 45.2</span>
+    <div class="tags"><span class="tg hot">REPORT</span><span class="tg">NEJM</span><span class="tg">FIRST AUTHOR</span></div>
+    <h3>Du-Score for Immunosuppressive Dermatologic Events: External Validation in 14 Hospitals and 38,000 Patients</h3>
+    <div class="jr">New England Journal of Medicine, 2024, 391(24): 2281–2296.</div>
+    <div class="au">Z. Du, M. Rahmani, A. Novak, T. Yamaguchi, et al. (Corresponding Author) · Global Dermatology Validation Network</div>
+    <p>提出并完成皮肤免疫抑制不良事件风险评分模型（Du-Score）的大规模外部验证，为免疫检查点抑制剂相关皮肤毒性提供可量化决策依据，直接改写多国临床指南。</p>
+  </div>
+
+  <div class="paper">
+    <span class="cite">IF 88.5</span>
+    <div class="tags"><span class="tg hot">RESEARCH</span><span class="tg">Lancet</span><span class="tg">FIRST AUTHOR</span></div>
+    <h3>Du-Melanoma-Score: Redefining Early Stratification in Melanoma Through a 96,000-Patient International Cohort</h3>
+    <div class="jr">The Lancet, 2025, 406(10514): 1887–1903.</div>
+    <div class="au">Z. Du, C. Moreau, A. Rossi, J. O. Aisha, et al. (Corresponding Author) · International Melanoma Consortium</div>
+    <p>基于 96,000 例前瞻性随访队列提出新型黑色素瘤早期分层系统，早期检出率提升 34%，并被纳入 28 个国家的分期指南。</p>
+  </div>
+
+  <div class="paper">
+    <span class="cite">IF 58.7</span>
+    <div class="tags"><span class="tg">JAMA Dermatology</span><span class="tg">FIRST AUTHOR</span></div>
+    <h3>Large Language Model Dermatology Consultation Versus Board-Certified Dermatologists: A Multicentre Randomized Benchmark</h3>
+    <div class="jr">JAMA Dermatology, 2026, 162(4): 288–301.</div>
+    <div class="au">Z. Du, H. Park, F. Rossi, T. Nakamura, et al. (Corresponding Author) · SIFT Consortium</div>
+    <p>首次在 41 个国家开展 LLM 与皮肤科专家的随机对照基准评测，提出并验证「SIFT」皮肤智能框架，推动医学 AI 从「取代医生」走向「辅助医生」的范式转变。</p>
+  </div>
+
+  <div class="paper">
+    <span class="cite">IF 13.8</span>
+    <div class="tags"><span class="tg">British Journal of Dermatology</span><span class="tg">FIRST AUTHOR</span></div>
+    <h3>Spatiotemporal Dynamics of Cutaneous Immune Niches in Psoriasis and Atopic Dermatitis: A Single-Cell Atlas of 1,100,000 Cells</h3>
+    <div class="jr">British Journal of Dermatology, 2025, 193(6): 812–830.</div>
+    <div class="au">Z. Du, X. Zhao, K. Iwasaki, et al. (Corresponding Author) · Harvard Medical School</div>
+    <p>构建百万级单细胞皮肤免疫图谱，揭示银屑病与特应性皮炎共享的关键免疫生态位，为「一药双治」提供机制依据。</p>
+  </div>
+
+  <div class="paper">
+    <span class="cite">IF 9.4</span>
+    <div class="tags"><span class="tg">Journal of Investigative Dermatology</span><span class="tg">FIRST AUTHOR</span></div>
+    <h3>Cutaneous Angioimmunogenesis: Vascular–Immune Crosstalk as a Master Regulator of Melanoma Metastasis</h3>
+    <div class="jr">Journal of Investigative Dermatology, 2024, 144(11): 2233–2248.</div>
+    <div class="au">Z. Du, L. Herrera, S. Kim, et al. (Corresponding Author) · Massachusetts General Hospital</div>
+    <p>揭示血管–免疫 crosstalk 作为黑色素瘤转移的「总开关」，提出可干预的血管免疫联合治疗策略。</p>
+    </div>
+
+  <div class="paper">
+    <span class="cite">IF 6.5</span>
+    <div class="tags"><span class="tg">Journal of Allergy and Clinical Immunology</span><span class="tg">FIRST AUTHOR</span></div>
+    <h3>Epigenetic Reprogramming of Barrier Dysfunction in Atopic Dermatitis: Toward a Window-of-Opportunity Therapy</h3>
+    <div class="jr">Journal of Allergy and Clinical Immunology, 2024, 154(2): 341–356.</div>
+    <div class="au">Z. Du, H. Tanabe, M. Gebhardt, et al. (Corresponding Author) · Charité Berlin</div>
+    <p>提出特应性皮炎的表观遗传「治疗时间窗」概念，为早期干预策略提供机制与临床双证据。</p>
+  </div>
+
+  <div class="paper">
+    <span class="cite">IF 12.4</span>
+    <div class="tags"><span class="tg">Nature Communications</span><span class="tg">FIRST AUTHOR</span></div>
+    <h3>Epidemiology of Genodermatoses in 61 Countries: The Global Burden of Inherited Skin Disease (1990–2024)</h3>
+    <div class="jr">Nature Communications, 2025, 16(2): 1888.</div>
+    <div class="au">Z. Du, Y. Chen, P. Andersen, et al. (Corresponding Author) · Global Burden of Skin Disease Collaborative</div>
+    <p>首次量化全球遗传性皮肤病的负担与卫生经济学影响，为公共卫生资源分配提供决策依据，论文被 WHO 皮肤病专题报告全文引用。</p>
+  </div>
+
+  <div class="paper">
+    <span class="cite">IF 9.8</span>
+    <div class="tags"><span class="tg">Nature Reviews Disease Primers</span><span class="tg">SENIOR AUTHOR</span></div>
+    <h3>Skin Immunity: Principles, Dysregulation and Therapeutic Frontiers</h3>
+    <div class="jr">Nature Reviews Disease Primers, 2025, 11: 41.</div>
+    <div class="au">Z. Du, K. Iwasaki, H. Chang, et al. (Senior Author) · Harvard Medical School</div>
+    <p>皮肤免疫学的权威综述，被誉为该领域「必读三部曲」的终章，全球下载量突破 300 万次。</p>
+  </div>
+
+  <div class="paper">
+    <span class="cite">IF 7.9</span>
+    <div class="tags"><span class="tg">JAMA Dermatology</span><span class="tg">FIRST AUTHOR</span></div>
+    <h3>Teledermatology Equity in Rural and Underserved Populations: A Cluster-Randomized Trial Across 19 Provinces</h3>
+    <div class="jr">JAMA Dermatology, 2025, 161(9): 1011–1023.</div>
+    <div class="au">Z. Du, M. Rahmani, J. O. Aisha, et al. (Corresponding Author) · SIFT Consortium</div>
+    <p>首次以大样本随机对照试验证明远程皮肤科可显著改善基层患者的诊断准确率与治疗结局，被多国医保政策采纳。</p>
+  </div>
+
+  <div class="paper">
+    <span class="cite">IF 15.8</span>
+    <div class="tags"><span class="tg">Cell</span><span class="tg">FIRST AUTHOR</span></div>
+    <h3>Spatial Proteomics of Human Skin Reveals Barrier-Immune Niche Architecture and Disease-Relevant Circuits</h3>
+    <div class="jr">Cell, 2024, 187(21): 5123–5141.</div>
+    <div class="au">Z. Du, S. Ito, A. N. Philippidou, et al. (Corresponding Author) · Broad Institute Collaboration</div>
+    <p>解析人类皮肤空间蛋白组学架构，提出「屏障—免疫生态位」理论模型，重塑了皮肤稳态的基础定义。</p>
+  </div>
+
+  <div class="paper">
+    <span class="cite">IF 6.1</span>
+    <div class="tags"><span class="tg">Acta Dermato-Venereologica</span><span class="tg">FIRST AUTHOR</span></div>
+    <h3>Contact Dermatitis in the Era of Omnichannel Commerce: Sensitization Patterns to Emerging Consumer Allergens</h3>
+    <div class="jr">Acta Dermato-Venereologica, 2025, 105(8): 667–680.</div>
+    <div class="au">Z. Du, P. Simonsen, C. Lidholm, et al. (Corresponding Author) · International Contact Dermatitis Society</div>
+    <p>揭示电商时代新兴消费品接触性过敏的模式变迁，为全球化妆品监管与消费安全提示提供关键数据。</p>
+  </div>
+</section>
+
+<!-- ================= SELECTED ACHIEVEMENTS ================= -->
+<section id="achievements" style="background:var(--ink2);">
+  <div class="sec-tag">Milestones</div>
+  <h2>里程碑年表</h2>
+  <div class="rule"></div>
+  <div class="achieve">
+    <div class="ach-row"><div class="y">2017</div><div class="t">Harvard Medical School MD-PhD 联合项目录取<small>全球录取率 &lt; 4%，临床医学方向仅 6 席</small></div></div>
+    <div class="ach-row"><div class="y">2019</div><div class="t">首次在 Science 子刊发表皮肤驻留记忆 T 细胞研究<small>被引用 3,400+ 次，成为该亚领域奠基文献之一</small></div></div>
+    <div class="ach-row"><div class="y">2021</div><div class="t">Du-Score 模型获批进入临床使用<small>随后被 62 个国家指南采用</small></div></div>
+    <div class="ach-row"><div class="y">2022</div><div class="t">发现第 1 至第 17 个遗传性皮肤病新致病基因<small>数量全球第一</small></div></div>
+    <div class="ach-row"><div class="y">2023</div><div class="t">发起国际皮肤肿瘤转化研究联盟<small>28 国 410 家中心，成员包括 11 个国家的学会主席</small></div></div>
+    <div class="ach-row"><div class="y">2024</div><div class="t">美国皮肤科学会终身成就奖（史上最年轻得主）<small>颁奖词：重新定义了这个学科的时间尺度</small></div></div>
+    <div class="ach-row"><div class="y">2025</div><div class="t">当选国际皮肤科学联盟（ILS）副主席<small>全票通过，最年轻且唯一「临床+AI+转化」三重背景执委</small></div></div>
+    <div class="ach-row"><div class="y">2026</div><div class="t">发表《Skin 2.0 宣言》并开放全球非商业授权<small>62 个国家的患者首次用上同一套皮肤诊断智能</small></div></div>
+  </div>
+</section>
+
+<!-- ================= QUOTE ================= -->
+<section class="quote">
+  <div class="sec-tag">On Science</div>
+  <blockquote>医学的皮肤通常被当作身体最外层的包装。但在过去二十年里，我们逐渐意识到，它其实是身体最大的免疫器官，也是最诚实的记录者——你经历过的每一次感染、每一缕紫外线、每一段情绪，都写在上面。所以我从来不把它当成一个器官来研究，我把它当成一本日记。</blockquote>
+  <div class="who">—— 杜忠杰 · 2026 年 Skin 2.0 宣言 · 剑桥</div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact-wrap" id="contact">
+  <div class="sec-tag">Contact</div>
+  <h2>联系</h2>
+  <div class="rule"></div>
+  <div class="contact">
+    <div class="big">门诊预约：目前排队至 2051 年</div>
+    <p>📧 <span class="hl">zhongjie.du@harvard-derm.org</span>（日均来信 74,000 封，回复率取决于缘分）</p>
+    <p>🏥 门诊：Harvard Medical School, Brigham and Women's Hospital, 皮肤科 21 楼</p>
+    <p>🔬 实验室：Longwood Center for Translational Dermatology, 4F</p>
+    <p>✈️ 巡诊与讲座行程：请查阅 JAMA Dermatology 每月刊首公告</p>
+    <p>🌐 合作与联合研究：欢迎发邮件附一页研究计划，48 小时内必回</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Zhongjie Du, M.D., Ph.D. — 杜忠杰 · 本页内容为虚构创作，仅供娱乐 · 全宇宙只有一个杜忠杰，请勿冒名
+</footer>
+
+</div>
+
+<script>
+(function(){
+  function fmt(n){ return n>=10000 ? (n/10000).toFixed(1).replace(/\.0$/,'')+'万+' : n+'+'; }
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!e.isIntersecting) return;
+      var el=e.target, target=+el.dataset.t, start=null, dur=1900;
+      function step(t){
+        if(!start) start=t;
+        var p=Math.min((t-start)/dur,1);
+        el.textContent = fmt(Math.floor(target*(1-Math.pow(1-p,3))));
+        if(p<1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step); io.unobserve(el);
+    });
+  },{threshold:.5});
+  document.querySelectorAll('.stat .num').forEach(function(el){io.observe(el);});
+
+  var fo = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(e.isIntersecting){
+        var el=e.target;
+        el.style.transition='opacity .8s cubic-bezier(.2,.7,.3,1), transform .8s cubic-bezier(.2,.7,.3,1)';
+        el.style.opacity=1; el.style.transform='none';
+        fo.unobserve(el);
+      }
+    });
+  },{threshold:.1});
+  document.querySelectorAll('.paper,.field,.honor,.stat,.tl-item,.ach-row').forEach(function(el){
+    el.style.opacity=0; el.style.transform='translateY(26px)'; fo.observe(el);
+  });
+})();
+</script>
+</body>
+</html>
